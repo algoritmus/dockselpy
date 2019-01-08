@@ -6,7 +6,7 @@ from selenium import webdriver
 
 logging.getLogger().setLevel(logging.INFO)
 
-BASE_URL = 'http://www.example.com/'
+BASE_URL = 'http://radio1.hu/'
 
 
 def chrome_example():
@@ -31,6 +31,8 @@ def chrome_example():
 
     logging.info('Page title: %s', browser.title)
 
+    getTrackInfos(browser)
+    
     browser.quit()
     display.stop()
 
@@ -56,7 +58,7 @@ def firefox_example():
 
     logging.info('Page title: %s', browser.title)
     
-    getTrackInfo(browser)
+    getTrackInfos(browser)
     
     browser.quit()
     display.stop()
