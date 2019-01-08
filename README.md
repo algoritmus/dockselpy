@@ -10,7 +10,7 @@ led to the process of building my own version.
 The image is build with the following dependencies:
 - latest Chrome and chromedriver
 - latest Firefox and geckodriver
-- latest stable PhantomJS webkit (v2.1.1)
+- ~~stable PlatesthantomJS webkit (v2.1.1)~~
 - Selenium
 - Python 3
 - Xvfb and the python wrapper - pyvirtualdisplay
